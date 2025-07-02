@@ -1,6 +1,6 @@
-# Welcome to Remix!
+# personal-dev-journal
 
-- 📖 [Remix docs](https://remix.run/docs)
+日々の開発活動や学習内容を記録できる個人用日記アプリケーションです。Remix + TypeScript で構築した SPA で、GitHub 認証によるユーザー管理、GitHub リポジトリでのデータ保存、GitHub Pages でのホスティングを実現しています。完全に GitHub エコシステム内で完結するシンプルな設計により、面倒な設定は不要。個人の成長を振り返ったり、過去の活動を思い出すのに便利な開発ログツールです。
 
 ## Development
 
