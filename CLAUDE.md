@@ -20,7 +20,7 @@ This is a personal development journal application built with Remix + Vite and T
 - **Remix Application**: Uses Vite as the bundler with future flags enabled (v3_singleFetch, v3_lazyRouteDiscovery, etc.)
 - **TypeScript Configuration**: Strict mode enabled with path mapping (`~/*` -> `./app/*`)
 - **Styling**: Tailwind CSS with PostCSS, includes Inter font from Google Fonts
-- **Entry Points**: 
+- **Entry Points**:
   - Client: `app/entry.client.tsx`
   - Server: `app/entry.server.tsx`
   - Root: `app/root.tsx` (Layout component with global styles)
@@ -30,6 +30,7 @@ This is a personal development journal application built with Remix + Vite and T
 ## Build Output
 
 Production builds generate:
+
 - `build/server/` - Server-side code
 - `build/client/` - Client-side assets
 
