@@ -13,6 +13,7 @@ This is a personal development journal application built with Remix + Vite and T
 - **Start production server**: `npm start`
 - **Type checking**: `npm run typecheck`
 - **Linting**: `npm run lint`
+- **Formatting**: `npm run fmt`
 
 ## Architecture
 
@@ -38,3 +39,7 @@ Production builds generate:
 - `tsconfig.json` - TypeScript configuration with path mapping
 - `tailwind.config.ts` - Tailwind CSS configuration
 - `postcss.config.js` - PostCSS configuration for Tailwind
+
+## Workflow Rules
+
+- **Always run formatting after code edits**: Execute `npm run fmt` whenever code editing is completed to maintain consistent code formatting throughout the project.
